@@ -593,7 +593,7 @@ align-items: center;}
     display: flex;
     flex-wrap: wrap;
     gap: 56px;
- 
+ margin-top: 48px;
 }
 
 
@@ -728,9 +728,7 @@ align-items: center;}
     transition: color 250ms var(--time-transition);
 }
 
-.nav-link-current{
-    color: var(--primary-button-color);
-}
+
 
 .nav-link-current::after{
     position: absolute;
