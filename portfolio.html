@@ -16,65 +16,91 @@
     
 </head>
 <body>
-    <header class="header-shadow">
-        <div class="container header">
-            <nav class="nav-container">
-                <a href="./index.html" class="all-logo"><span class="logo">Web</span>Studio</a>
-                <button type="button" class="menu-button" aria-expanded="false" >
-                    <svg width="30px" height="30px" aria-label="Перемикач мобільного меню">
+     <header class="header">
+    <div class="container header-container">
+            <a href="./index.html" class="all-logo"><span class="logo">Web</span>Studio</a>
+         <div class="header-container-mobile">   
+        <button type="button" class="menu-button js-open-menu">
+                <svg width="30px" height="30px">
+                    <use class="icon-menu" href="./images/icons.svg#icon-menu-icon"></use>
+                </svg>
+            </button>  </div> 
+                  <div class="header-container-desctop">
+            <nav class="header-nav">
+          <ul class="header-menu">
+            <li>
+              <a class="header-link current" href="./index.html">Studio </a>
+            </li>
+            <li><a class="header-link" href="./portfolio.html">Portfolio</a></li>
+            <li><a class="header-link" href="">Contacts</a></li>
+          </ul></nav>
+        <address class="header-adress">
+            <ul class="header-contact">
+            <li>
+              <a class="contact" href="mailto:info@devstudio.com">info@devstudio.com</a>
+            </li>
+            <li>
+              <a class="contact" href="tel:+110001111111">+110001111111</a>
+            </li>
+          </ul>
+        </address>
+      </div>
+    </div>
+
+            <div class="menu-container js-menu-container">
+                <button type="button" class="menu-close js-close-menu">
+                    <svg width="30px" height="30px">
                         <use class="icon-close" href="./images/icons.svg#icon-close"></use>
-                        <use class="icon-menu" href="./images/icons.svg#icon-menu-icon"></use>
                     </svg>
                 </button>
-                <div class="menu-container">
-                    <ul class="nav">
-                        <li><a href="./index.html" class="nav-link">Studio</a></li>
-                        <li><a href="./portfolio.html" class="nav-link  nav-link-current">Portfolio</a></li>
-                        <li><a href="" class="nav-link">Contacts</a></li>
-                        </ul>
-                    
-                    <address class="contact">
-                        <ul class="contact-list">
-                            <li><a href="mailto:info@devstudio.com" class="contact-link">info@devstudio.com</a></li>
-                            <li><a href="tel:+110001111111" class="contact-link tel">+11 (000) 111-11-11</a></li>
-                        </ul>
-                    </address>
-                    <div class="header-social__menu">
-                        <ul class="social__menu">
-                            <li>
-                                <a href="#" class="link-social">
-                                    <svg class="icon-social">
-                                        <use href="./images/icons.svg#icon-instagram"></use>
-                                    </svg>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#" class="link-social">
-                                    <svg  class="icon-social">
-                                        <use href="./images/icons.svg#icon-twitter"></use>
-                                    </svg>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#" class="link-social">
-                                    <svg class="icon-social">
-                                        <use href="./images/icons.svg#icon-facebook"></use>
-                                    </svg>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#" class="link-social">
-                                    <svg class="icon-social">
-                                        <use href="./images/icons.svg#icon-linkedin"></use>
-                                    </svg>
-                                </a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </nav>
-        </div>
-      </header>
+                        <div class="modal-mobile">
+                          <nav class="address-mobile">
+                <ul class="nav">
+                    <li><a href="./index.html" class="nav-link nav-link-current">Studio</a></li>
+                    <li><a href="./portfolio.html" class="nav-link">Portfolio</a></li>
+                    <li><a href="" class="nav-link">Contacts</a></li>
+                </ul>
+                </nav>
+                <address class="contact">
+                    <ul class="contact-list">
+                        <li><a href="mailto:info@devstudio.com" class="contact-link">info@devstudio.com</a></li>
+                        <li><a href="tel:+110001111111" class="contact-link tel">+11 (000) 111-11-11</a></li>
+                    </ul>
+                </address>
+      
+                    <ul class="social__menu">
+                        <li>
+                            <a href="#" class="link-social">
+                                <svg class="icon-social">
+                                    <use href="./images/icons.svg#icon-instagram"></use>
+                                </svg>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="link-social">
+                                <svg  class="icon-social">
+                                    <use href="./images/icons.svg#icon-twitter"></use>
+                                </svg>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="link-social">
+                                <svg class="icon-social">
+                                    <use href="./images/icons.svg#icon-facebook"></use>
+                                </svg>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="link-social">
+                                <svg class="icon-social">
+                                    <use href="./images/icons.svg#icon-linkedin"></use>
+                                </svg>
+                            </a>
+                        </li>
+                    </ul>
+                 </div>
+            </div>
+  </header>
     <main>
         <section class="button-menu">
         <div class="container">
