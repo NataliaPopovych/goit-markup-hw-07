@@ -814,7 +814,9 @@ align-items: center;}
         display: flex;
         flex-wrap: wrap;
         margin-top: 56px;
-        gap: 56px;;
+        gap: 36px;
+            max-width: 328px;
+    width: 100%;
     }
 
 }
