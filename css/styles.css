@@ -335,14 +335,15 @@ img{
 }
 
 @media screen and (max-width: 767px) {
-    .header { padding: 24px 16px;}
+   
 header-nav{display; flex;
-    justify-contant: space-between;
+    justify-content: space-between;
     align-items: center;
     padding-left: 16px;
     padding-right: 16px;}}
 .header-container{display: flex;
-align-items: center;}
+align-items: center;
+justify-content: space-between;}
 .header-adress{margin-right: auto;}
 .header-container-desctop{display: none;}
 @media screen and (min-width: 768px){
@@ -357,8 +358,7 @@ align-items: center;}
     display: flex;
      justify-content: flex-end;
     align-items: flex-start; 
-    margin-right: auto;
-    width: 100%;
+
 }
 
 @media screen and (min-width: 768px) {
@@ -367,9 +367,6 @@ align-items: center;}
     } 
     }
    @media screen and (max-width: 767px) {
-    .header {
-        padding: 24px 16px;
-    }
     .header-nav {
         display: flex;
         justify-content: space-between;
@@ -405,7 +402,7 @@ align-items: center;}
         display: flex;
         flex-direction: column;
         gap: 12px;
-        padding-right: 16px;
+        
     }
     }
     @media screen and (min-width: 1200px) {
@@ -428,7 +425,7 @@ align-items: center;}
 .header-link.current::after {
     content: '';
     position: absolute;
-        bottom: 0;
+        bottom: -1px;
         left: 0;
     display: block;
     width: 100%;
@@ -695,7 +692,7 @@ align-items: center;}
 }
 
 .all-logo{
-    margin-right: 76px;
+    
     padding-top: 24px;
     padding-bottom: 24px;
     
@@ -1113,7 +1110,7 @@ align-items: center;}
 @media screen and (max-width: 767px) {
     .team-card{
         margin: 0 auto;
-        margin-top: 72px;
+        
     }
 }
 
@@ -1166,7 +1163,7 @@ align-items: center;}
   .company  {
     flex-basis: calc((100%-16px) / 2);
 } 
-
+.company-item{ width: 190px;}
 @media screen and (min-width: 768px) {
     .company {
         display: flex;
@@ -1285,6 +1282,8 @@ align-items: center;}
 
 .social{
     margin-top: 72px;
+    
+    margin-bottom: 72px;
 }
 
 .footer-title{
@@ -1301,7 +1300,6 @@ align-items: center;}
     gap: 16px;
     justify-content: center;
 
-    margin-bottom: 72px;
 }
 @media screen and (min-width:767px) {
     .media-list{
